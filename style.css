@@ -1,0 +1,215 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+#wrapper{
+	background:url(images/bg.jpg);
+	width:2000px;
+	height:990px;
+	padding-top:10px;
+	position:relative;
+}
+.header{
+	margin-left:550px;
+}
+.logo{
+	display:inline-block;
+}
+.top-menu{
+	vertical-align:top;
+	display:inline-block;
+	width:auto;
+	height:80px;
+	font-style:italic;
+}
+.top-menu figure{
+	display:block;
+	width:60px;
+	height:60px;
+	margin:0;
+}
+.top-menu figure:hover{
+	background:url(images/hover.png) no-repeat;
+	background-position:center;
+}
+.holder{
+	margin-right:40px;
+	display:inline-block;
+}
+.holder h3{
+	font-family: DS UncialFunnyHand Medium;
+	text-shadow:1px 1px 2px white;
+	font-size:20px;
+	font-weight:100;
+	color:#280000;
+	margin:0;
+	display:block;
+}
+.menu{
+	margin-left:755px;
+}
+.personal-area-block{
+	margin-right:0px;
+	margin-left:0px;
+	display:inline-block;
+	width:220px;
+	height:40px;
+	background:url(images/lk-passive.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	font-style:italic;	
+}
+.personal-area-block:hover{
+	background:url(images/lk-hover.png);
+	background-repeat:no-repeat;
+}
+.personal-area{
+	display:inline-block;
+	font-family: DS UncialFunnyHand Medium;
+	text-shadow:1px 1px 2px white;
+	font-weight:100;
+	color:#280000;
+}
+.personal-area p{
+	margin:0;
+	margin-left:20px;
+	font-size:22px;
+	-webkit-margin-before:0;
+	-webkit-margin-after:0;
+}
+.personal-area p.top-p{
+	font-size:25px;
+	margin-left:35px;
+}
+.bottom-p p.bottom-p{
+	margin-left:35px;
+}
+.dots{
+	vertical-align:top;
+	padding:20px 0 0;
+	font-size:20px;
+	display:inline;
+	font-family: DS UncialFunnyHand Medium;
+	text-shadow:1px 1px 2px white;
+	font-weight:100;
+	color:#280000;
+}
+.off-block{
+	margin-left:35px;
+	display:inline-block;
+}
+.on-block{
+	margin-left:0px;
+	display:inline-block;
+}
+.menu img{
+	display:inline-block;
+}
+.pvp{
+	vertical-align:top;
+	margin-top:10px;
+	display:inline-block;
+}
+.pvp p{
+	margin:0;
+	color:#280000;
+	font-family:ZapfChancery;
+}
+.pvp span{
+	color:white;
+}
+.numbers{
+	font-weight:bold;
+	font-size:40px;
+}
+.start-game{
+	top:350px;
+	left:666px;
+	position:absolute;
+	font-family: DS UncialFunnyHand Medium;
+	text-shadow:1px 1px 2px white;
+	font-weight:bold;
+	font-size:30px;
+	color:#280000;
+}
+.start-game p{
+	margin:0;
+}
+.news{
+	margin-top:60px;
+	margin-left:965px;
+}
+.caption{
+	font-family: DS UncialFunnyHand Medium;
+	text-shadow:1px 1px 2px white;
+	font-weight:bold;
+	font-size:25px;
+	color:#280000;
+}
+.caption p{
+	display:inline;
+}
+.caption img{
+	vertical-align:bottom;
+	display:inline;
+}
+.news-row{
+	margin-left:30px;
+	padding:10px 0px;
+	width:380px;
+	border-bottom: 2px dotted #580000;
+}
+.news-row img{
+	display:inline;
+	border: 1px solid #580000;
+}
+.news-row p{
+	margin:0;
+	vertical-align:top;
+	display:inline-block;
+	font-weight:bold;
+}
+.news-row a{
+	font-size:20px;
+	color:#580000;
+	text-decoration:underline;
+}
+.from-forum{
+	margin-top:40px;
+	margin-left:920px;
+}
+.column{
+	margin-right:20px;
+	display:inline-block;
+}
+.from-forum{
+	color:red;
+}
+.from-forum img{
+	display:inline-block;
+}
+.from-forum p{
+	margin:0;
+	vertical-align:top;
+	display:inline-block;
+}
+.from-forum a{
+	color:#580000;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.from-forum span{
+	font-style:italic;
+	font-weight:100;
+}
+.some-info{
+	position:absolute;
+	bottom:134px;
+	left:575px;
+}
+.some-info img{
+	display:block;
+}
+.some-info img+img{
+	margin-top:20px;
+}
